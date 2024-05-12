@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>COE Deans Office</title>
+    <style>
+        /* Custom CSS for white blurry card */
+        .blurry-card {
+            background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+            backdrop-filter: blur(10px); /* Add blur effect */
+            border-radius: 20px; /* Rounded corners */
+            padding: 20px; /* Add padding */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add shadow */
+            width: 70%; /* Adjust card width */
+            max-width: 600px; /* Set maximum width */
+            height: auto; /* Allow height to adjust according to content */
+        }
+
+        /* Custom CSS for centering the card */
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        /* Custom CSS for main background image */
+        body {
+            background-image: url('pics/EVSU-v2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Optional: Fix the background image */
+        }
+
+        /* Custom CSS for red text */
+        .text-red {
+            color: red;
+        }
+
+        /* Custom CSS for red button */
+        .btn-red {
+            background-color: red;
+            border-color: red;
+        }
+
+        /* Custom CSS for white text inside red button */
+        .btn-red.white-text {
+            color: white;
+        }
+        .text-brighten:hover {
+            filter: brightness(1.2); /* Increase brightness on hover */
+        }
+        
+        /* Custom CSS for yellow text on hover */
+        .text-red:hover {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container-fluid position-relative d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <!-- White blurry card -->
+    <div class="blurry-card d-flex flex-column justify-content-center align-items-center">
+        <img style="height: 13rem;" src="pics/mainlogo.png" alt="Your Image">
+        <br>
+        <!-- <h1 class="mb-4 text-red"><strong>DEANS OFFICE</strong></h1> -->
+        <a href="home.php" class="btn btn-warning mt-3 btn-red white-text">Archive</a>
+        <div class="col-xs-12">
+            <br>
+            <p class="text-center">
+                By using this service, you understood and agree to the <a href="https://apps.evsu.edu.ph/terms-and-conditions" target="_blank"><span class="text-red">EVSU Online Services Terms of Use and Privacy Statement</span></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <script src="assets/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

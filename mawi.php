@@ -140,7 +140,8 @@ body {
           <img class="card__thumb" src="pics/ako.jpg" alt="" />
           <div class="card__header-text">
             <h3 class="card__title">Ryu Christian A. Ligutan</h3>            
-            <span class="card__status">Bachelor of Science in Information Technology</span>
+            <span class="card__status">BSIT</span>
+            <span class="card__status">Lead Developer</span>
           </div>
         </div>
         <p class="card__description">I can do all things through Christ who strengthens me -Philippians 4:13</p>
@@ -156,10 +157,11 @@ body {
           <img class="card__thumb" src="pics/mawi.jpg" alt="" />
           <div class="card__header-text">
             <h3 class="card__title">VIncent Kier L. Manas</h3>
-            <span class="card__status">Bachelor of Science in Information Technology</span>
+            <span class="card__status">BSIT</span>
+            <span class="card__status">Support Dev</span>
           </div>
         </div>
-        <p class="card__description">"Do not Steal"</p>
+        <p class="card__description">Anything is Possible</p>
       </div>
     </a>
   </li>

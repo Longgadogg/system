@@ -12,7 +12,7 @@
             <form method="POST" action="teaching_load.php" id="searchForm">
               <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Search" name="search" aria-label="Search"
-                  aria-describedby="button-addon2" id="searchInput">
+                  aria-describedby="button-addon2" id="searchInput" required>
                 <button class="btn btn-outline-success" type="submit" id="button-addon2">Search</button>
                 <button type="button" class="btn btn-danger" id="clearButton" onclick="returnToTable()">Clear</button>
                 <script>
@@ -54,7 +54,7 @@
           <!-- Button trigger modal -->
 <!-- CHECK -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#add">
-            Add a Member
+            Add Professor Document
           </button>
         </div>
         <!-- ADD Modal -->

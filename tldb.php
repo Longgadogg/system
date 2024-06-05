@@ -77,6 +77,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset ($_POST['search'])) {
 
     // Prepare the search query to prevent SQL injection
     $searchQuery = " WHERE professorname LIKE '%$search%' OR faculty LIKE '%$search%' OR semester LIKE '%$search%' OR schoolyear LIKE '%$search%'";
+} else{
+    $searchQuery = "";
 }
 
 // Construct the SQL query to fetch data based on the search query

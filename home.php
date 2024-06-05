@@ -108,11 +108,11 @@
             </div>
             <!-- Category -->
             <div class="col-md-4 mb-4 text-center">
-                <a href="about.php" class="card category-card">
+                <a href="mawi.php" class="card category-card">
                     <span class="icon-circle icon-circle-lg category-icon text-primary">
                         <i class="fas fa-address-card"></i>
                     </span>
-                    <span class="text-dark mt-3">System About</span>
+                    <span class="text-dark mt-3">Devs</span>
                 </a>
             </div>
         </div>

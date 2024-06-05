@@ -210,9 +210,15 @@ a.sidebar-link:hover {
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="mawi.php" class="sidebar-link">
+                    <a href="about.php" class="sidebar-link">
                         <i class="lni lni-handshake"></i>
-                        <span>Devs</span>
+                        <span>System About</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="manual.php" class="sidebar-link">
+                        <i class="lni lni-handshake"></i>
+                        <span>User Manual</span>
                     </a>
                 </li>
             </ul>
